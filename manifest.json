@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Aether",
+  "version": "1.1",
+  "description": "Aparece um input no centro da tela ao apertar Ctrl+M ou clicando na extensão.",
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "Abrir Input"
+  },
+  "commands": {
+    "show_input": {
+      "suggested_key": {
+        "default": "Ctrl+M"
+      },
+      "description": "Show input overlay"
+    }
+  }
+}
