@@ -1,4 +1,4 @@
-![Aether Icon](example.gif)
+![Aether Icon](exemple.gif)
 
 # Aether
 
